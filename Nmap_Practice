@@ -1,0 +1,53 @@
+## Introduction to Nmap
+
+**Nmap (Network Mapper)** is an open-source tool used for **network discovery and security auditing**. It helps identify devices, network services, open ports, and system information during authorized security assessments.
+
+## Network Discovery and Scanning
+
+Nmap can identify active hosts and help map a network through network discovery techniques such as **ping sweeps**, which determine which devices are active on a network.
+
+## Port Scanning
+
+Nmap scans target systems to identify **open and closed ports**. Open ports can indicate services running on a system and help administrators understand the services exposed on a network.
+
+## Service Version Detection
+
+Nmap can identify the versions of services running on open ports. This information can assist in identifying outdated services and assessing potential security risks.
+
+## OS Fingerprinting
+
+Nmap supports **OS detection** by analyzing responses from target systems and using TCP/IP stack fingerprinting to determine the operating system.
+
+## Scan Types and Techniques
+
+Nmap supports different scanning techniques, including:
+
+* **SYN Scan**
+* **TCP Connect Scan**
+* **UDP Scan**
+
+These techniques provide different approaches to network scanning depending on the assessment requirements.
+
+## Nmap Scripting Engine (NSE)
+
+The **Nmap Scripting Engine (NSE)** extends Nmap's capabilities by allowing scripts to automate tasks such as service enumeration and security-related checks.
+
+## Stealth Scanning
+
+Techniques such as **SYN scanning** can reduce the amount of connection establishment performed during a scan. The effectiveness of detection avoidance depends on the network configuration and security controls in place.
+
+## Integration with Other Tools
+
+Nmap supports structured output formats such as **XML**, allowing scan results to be processed by other network management and security tools.
+
+## Security Auditing and Penetration Testing
+
+Nmap is commonly used by network administrators and security professionals for authorized security assessments, network discovery, service enumeration, and configuration verification.
+
+## Legal and Ethical Use
+
+Nmap should only be used on systems and networks where you have **explicit authorization** to perform scanning. Unauthorized scanning may violate organizational policies or applicable laws.
+
+## Conclusion
+
+Nmap is a useful network security tool for understanding network environments, discovering active hosts, identifying exposed ports and services, and performing basic security analysis.
